@@ -1,12 +1,13 @@
 !-----------------------------------------------------------
-! OpenCFD-FWH
+! OpenCFD-FWH (MPI+OpenMP)
 ! Copyright by ZhangKeli
+! Reference: https://arxiv.org/abs/2312.16263
 ! Permeable surface FWH for wind tunnel cases using Garrick Triangle
 ! Openmp paralle support
 ! Version 2: 边Read FWH data 边计算Qn Lr Lm以降低内存需求
 ! Version 3: 以Observer为单位进行循环计算，降低内存压力
-! Version mpi: 支持mpi+openmp混合并行加速（同时避免在超算上单个节点爆内存; support formatted FWH data file
-! Version mpi_v2: a bug remove(Mi=-U0i/C0)
+! Version mpi: 支持mpi+openmp混合并行加速（同时避免在超算上单个节点爆内存
+! 2023-12-22: a bug remove(Mi=-U0i/C0); support formatted FWH data file
 !------------------------------------------------------------
   module Const_Variables
   implicit none
@@ -110,10 +111,7 @@ end module Const_Variables
       t_end = MPI_Wtime()
       print*, "Cpu wall time: ",t_end-t_start
     endif
-    ! if(my_id .eq. 0) then 
-    !   print*, "If you use the OpenCFD-FWH code for academic research, please cite the following paper:"
-    !   print*, "under review"
-    ! endif
+    
     call MPI_Finalize(ierr)
   end
 

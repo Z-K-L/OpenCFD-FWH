@@ -35,9 +35,9 @@ In the Tutorials folder Matlab programs for monopole and dipole validation cases
 9. You can change the parameters in the  _samlpe.m files for different monpole/dipole conditions and FW-H data sampling strategies.
  
 ## For Windows users
-- You can follow the same procedure of [Linux users](https://github.com/Z-K-L/OpenCFD-FWH##For Linux users), expect compile the .f90 file to a .exe file and use ```mpiexe -n 1 .\OpenCFD-FWH.exe``` to excute the code.
+- You can follow the same procedure of [Linux users](https://github.com/Z-K-L/OpenCFD-FWH?tab=readme-ov-file#for-linux-users), expect compile the .f90 file to a .exe file and use ```mpiexe -n 1 .\OpenCFD-FWH.exe``` to excute the code.
 - Or you can place the OpenCFD-FWH_OpenMP-only.exe file in the FWH-monopole or FWH-dipole folder, and excute it (*even you don't have OpenMP install in your system*) after the finish of the _sample.m file's execution 
- in the monopole/dipole folder. Note the the only OpenMP version will output the results in the *FWH_result* folder. You need to rename it as *FWH_result-mpi* or change the *FWH_result-mpi* to *FWH_result* in the FWH results reading part of the monopole.m/dipole.m file. Then folowing the 8. and 9. step in [Linux users](https://github.com/Z-K-L/OpenCFD-FWH##For Linux users)
+ in the monopole/dipole folder. Note the the only OpenMP version will output the results in the *FWH_result* folder. You need to rename it as *FWH_result-mpi* or change the *FWH_result-mpi* to *FWH_result* in the FWH results reading part of the monopole.m/dipole.m file. Then folowing the 8. and 9. step in [Linux users](https://github.com/Z-K-L/OpenCFD-FWH?tab=readme-ov-file#for-linux-users)
 
 # Hybrid parallel acceleration
 

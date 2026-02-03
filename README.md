@@ -51,7 +51,9 @@ MPI processors|OMP threads|init time/s|computing time/s|total time/s|computing a
 
 # Citation of OpenCFD-FWH
 If you use the OpenCFD-FWH code for academic research, please cite the following paper:
-(*under review*)
+Zhang, K., Liu, P., Lin, S., Liu, K., and Lu, Y., “Sweep Effects on Slat Tonal Noise,” AIAA Journal, 2026, pp. 1–22.
+https://doi.org/10.2514/1.J066362.
 
 # For problems
 Any problems encounter with the code, you can publish them on Issues.
+

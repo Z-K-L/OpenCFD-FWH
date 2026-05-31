@@ -51,8 +51,12 @@ MPI processors|OMP threads|init time/s|computing time/s|total time/s|computing a
 
 # Citation of OpenCFD-FWH
 If you use the OpenCFD-FWH code for academic research, please cite the following paper:
-Zhang, K., Liu, P., Lin, S., Liu, K., and Lu, Y., “Sweep Effects on Slat Tonal Noise,” AIAA Journal, 2026, pp. 1–22.
-https://doi.org/10.2514/1.J066362.
+
+Keli Zhang, Peiqing Liu, Shizhi Lin, Kai Liu, and Yi Lu, "Sweep Effects on Slat Tonal Noise, " AIAAJ, Vol. 64, No. 6 (2026), pp. 3399-3420 doi: doi/abs/10.2514/1.J066362
+
+Zhang, K., Lin, S., Liu, P., Zhang, Z., Liu, S., Fang, C., ... & Lv, Y. (2026). CFD-Based Aerodynamic and Aeroacoustic Optimization of the 30P30N High-Lift Airfoil. In 32nd AIAA/CEAS Aeroacoustics Conference (2026) (p. 3256).
+
+Zhang, K., Lin, S., Liu, P., Liu, S., Ren, Y., Liu, K., ... & Lv, Y. (2026). Aeroacoustic Control of Slat Noise: Dependence of Noise Reduction on Angle-of-Attack Using a Novel Staggered Serration Design. In 32nd AIAA/CEAS Aeroacoustics Conference (2026) (p. 3208).
 
 # For problems
 Any problems encounter with the code, you can publish them on Issues.

@@ -2,7 +2,7 @@
 
 OpenCFD-FWH is a far-file noise prediction code based on a permeable surface nondimensional FW-H (Ffowcs Williams-Hawkings) acoustics analogy with convective effect and AoA corrections. It is developed to use as a post-processing code for our finite volume CFD solver [OpenCFD-EC](https://opencfd.cn/downloads/)， but **it can be used with other solvers** with the right data format, or by modifying the data reading procedure of the code.
 
-More detail information about the methodology, framework,  validation, and input data format of the code pleased refer to our preprint paper: [An MPI-OpenMP mixing parallel open source FW-H code for aeroacoustics calculation](https://arxiv.org/abs/2312.16263). 
+More detail information about the methodology, framework,  validation, and input data format of the code pleased refer to our ICCFD13 paper: Zhang, K., Li, X., & Liu, P. (2026). A hybrid parallel open source Ffowcs Williams-Hawkings code for aeroacoustics calculation. 
 
 ### Features:
 - Nondimensional FW-H acoustics analogy for permeable data surface
@@ -51,12 +51,13 @@ MPI processors|OMP threads|init time/s|computing time/s|total time/s|computing a
 
 # Citation of OpenCFD-FWH
 If you use the OpenCFD-FWH code for academic research, please cite the following paper:
+Zhang, K., Liu, P., Lin, S., Liu, K., & Lu, Y. (2026). Sweep Effects on Slat Tonal Noise. AIAA Journal, 1-22.
+Zhang, K., Li, X., & Liu, P. (2026). A hybrid parallel open source Ffowcs Williams-Hawkings code for aeroacoustics calculation. In ICCFD13 (p. 12).
 
-Keli Zhang, Peiqing Liu, Shizhi Lin, Kai Liu, and Yi Lu, "Sweep Effects on Slat Tonal Noise, " AIAAJ, Vol. 64, No. 6 (2026), pp. 3399-3420 doi: doi/abs/10.2514/1.J066362
-
+Relevant studies employing the OpenCFD-FWH code:
 Zhang, K., Lin, S., Liu, P., Zhang, Z., Liu, S., Fang, C., ... & Lv, Y. (2026). CFD-Based Aerodynamic and Aeroacoustic Optimization of the 30P30N High-Lift Airfoil. In 32nd AIAA/CEAS Aeroacoustics Conference (2026) (p. 3256).
-
 Zhang, K., Lin, S., Liu, P., Liu, S., Ren, Y., Liu, K., ... & Lv, Y. (2026). Aeroacoustic Control of Slat Noise: Dependence of Noise Reduction on Angle-of-Attack Using a Novel Staggered Serration Design. In 32nd AIAA/CEAS Aeroacoustics Conference (2026) (p. 3208).
+Zhang, K., Liu, P., Lin, S., Liu, S., Ren, Y., Fang, C., Zhu, A., Liu, K., Lu, Y., & Lv, Y. (2026). Capabilities of DIMAXER in predicting slat noise from high-lift systems. In ICCFD13 (p. 18).
 
 # For problems
 Any problems encounter with the code, you can publish them on Issues.

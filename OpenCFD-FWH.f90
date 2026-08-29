@@ -365,7 +365,7 @@ call MPI_Barrier(MPI_COMM_WORLD,ierr)
       write(filename, "('FWH-'I8.8'.dat')") m
       print*, "read ",filename
       if( FWH_data_Format .eq. 0) then   ! 二进制文件
-        open(77,file=trim(filename),form="unformatted")
+        open(77,file=trim(filename),form="unformatted", access='stream', status='old')
       else
         open(77,file=trim(filename))
       endif
